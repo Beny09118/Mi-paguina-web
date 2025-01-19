@@ -1,0 +1,7 @@
+// Sonido de canción
+var audio = new Audio("C:/Users/benit/Downloads/Los Primos MX Mi Bello ngel LETRA.mp3");
+
+// Reproducir canción cuando se hace clic en el botón
+document.getElementById("buton").addEventListener("click", function() {
+  audio.play();
+});
